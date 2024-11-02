@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "takeshikask <takeshikask@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/user-agents": "^1.0.4",
+    "bcryptjs": "^2.4.3",
+    "client-request-inspector": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0",
+    "express-validator": "^7.2.0",
+    "http-status": "^1.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "req-scopes": "^3.4.3",
+    "typeorm": "^0.3.20",
+    "typeorm-extension": "^3.6.1",
+    "typeorm-naming-strategies": "^4.1.0",
+    "user-agent": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.5.5",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
